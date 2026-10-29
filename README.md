@@ -64,5 +64,142 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Blumira is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://equityzen.com/company/blumira
+Blumira provides a security operations platform that helps IT teams detect, investigate, and respond to threats across cloud, on‑premise, and hybrid environments. It offers features such as automated alerting, evidence‑rich case management, integrations with major cloud providers, and a developer‑friendly API for ingesting logs, managing detections, and automating response actions. The platform aims to simplify security operations while delivering comprehensive visibility and compliance reporting.
+
+**Areas:** Company · Security · Software-as-a-Service · Cloud · IT
+
+## Blumira on APIs.io
+
+Everything profiled for Blumira is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/blumira/](https://apis.io/providers/blumira/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [Blumira Health API](https://apis.io/apis/blumira/blumira-health-api/) — The Health API from Blumira — 1 operation(s) for health.
+- [Blumira Msp API](https://apis.io/apis/blumira/blumira-msp-api/) — The Msp API from Blumira — 26 operation(s) for msp.
+- [Blumira Org API](https://apis.io/apis/blumira/blumira-org-api/) — The Org API from Blumira — 23 operation(s) for org.
+- [Blumira Resolutions API](https://apis.io/apis/blumira/blumira-resolutions-api/) — The Resolutions API from Blumira — 1 operation(s) for resolutions.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Blumira Agentic Access](https://apis.io/agentic-access/blumira/blumira-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [action_catalog](https://apis.io/schemas/blumira/blumira-action-catalog/)
+- [request_action_dispatch](https://apis.io/schemas/blumira/blumira-request-action-dispatch/)
+- [response_command_record](https://apis.io/schemas/blumira/blumira-response-command-record/)
+- [response_finding_evidence](https://apis.io/schemas/blumira/blumira-response-finding-evidence/)
+- [webhook_endpoint_create_record](https://apis.io/schemas/blumira/blumira-webhook-endpoint-create-record/)
+- [webhook_endpoint_update_record](https://apis.io/schemas/blumira/blumira-webhook-endpoint-update-record/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Blumira Context](https://apis.io/jsonld/blumira/blumira-context/)
+
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Blumira Openapi Overlay](https://apis.io/overlays/blumira/blumira-openapi-overlay/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Blumira API Rules](https://apis.io/rules/blumira/blumira-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Blumira Authentication](https://apis.io/security/blumira/blumira-authentication/)
+- [Blumira Domain Security](https://apis.io/security/blumira/blumira-domain-security/)
+- [Blumira Trust Center](https://apis.io/security/blumira/blumira-trust-center/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Blumira Plans Pricing](https://apis.io/plans/blumira/blumira-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.blumira.com)
+- [Documentation](https://www.blumira.com/docs)
+- [Getting started](https://www.blumira.com/blog/detect-and-respond-to-azure-threats-with-blumira-easy-cloud-siem-setup)
+- [Pricing](https://www.blumira.com/pricing)
+- [Support](https://support.blumira.com/hc/en-us)
+- [Blog](https://www.blumira.com/blog)
+- [Security](https://www.blumira.com/security)
+- [Compliance](https://app.drata.com/trust/dec6cfdb-01d8-48e0-9aea-d34a48e20589)
+- [Terms of service](https://www.blumira.com/terms-of-use)
+- [Privacy policy](https://www.blumira.com/privacy-policy)
+- [GitHub](https://github.com/Blumira)
+- [Status](https://status.blumira.com/)
+
+## API Evangelist rating
+
+**Kin Score 60.0** — strong · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 67.9 |
+| Contract quality | 59.6 |
+| Contract governance | 22.0 |
+| Operational transparency | 47.4 |
+| Developer ergonomics | 47.6 |
+| Access clarity | 78.9 |
+
+**Agent readiness 34.7** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | derived (partial credit) |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 29.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/blumira/](https://apis.io/providers/blumira/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Blumira: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/blumira/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
